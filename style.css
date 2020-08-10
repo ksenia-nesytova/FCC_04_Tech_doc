@@ -1,5 +1,19 @@
+$sidenav-width: 290px;
+
 .sidenav {
   position: fixed;
   z-index: 1;
   overflow-x: hidden;
+  width: 290px;
+  border-right: solid;
+  border-color: black;
+}
+
+.sidenav a {
+  text-decoration: none;
+  display: block;
+}
+
+.main-section {
+  margin-left: 290px;
 }
