@@ -29,6 +29,7 @@ body {
   display: block;
   color: inherit;
   line-height: 2;
+  padding: 10px 0 10px 10px;
 }
 
 .sidenav a:hover {
