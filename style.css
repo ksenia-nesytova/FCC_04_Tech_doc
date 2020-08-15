@@ -24,7 +24,17 @@ body {
   border-top: 1px solid black;
 }
 
-.sidenav a {
+.nav-link {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  line-height: 2;
+  padding: 10px 0 10px 10px;
+}
+.nav-link:hover {
+  color: black;
+}
+/* .sidenav a {
   text-decoration: none;
   display: block;
   color: inherit;
@@ -34,7 +44,7 @@ body {
 
 .sidenav a:hover {
   color: black;
-}
+} */
 
 .main-section {
   margin-left: 290px;
@@ -60,4 +70,10 @@ code {
   padding: 20px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+@media screen (max-width: 800px) {
+  sidnav{
+    width: 200px;
+  }
 }
