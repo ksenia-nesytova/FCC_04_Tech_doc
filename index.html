@@ -6,8 +6,8 @@
     <title>Technical Documentation</title>
   </head>
   <body>
-    <main>
-      <nav class="sidenav">
+    <main id="main-doc">
+      <nav class="sidenav" id="navbar">
         <header>
           JS Documentation
         </header>
@@ -26,6 +26,7 @@
          <li><a class="nav-link" href="#Reference">Reference</a></li>
         </ul>
       </nav>
+      <section>
       <article class="main-section" id="Introduction">
         <header>
           Introduction
@@ -40,6 +41,8 @@
         </li>
         </ul>
       </article>
+    </section>
+    <section>
       <article class="main-section" id="What_you_should_already_know">
         <header>
           What you should already know
@@ -51,6 +54,8 @@
           <li><p>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</p></li>
         </ul>
       </article>
+    </section>
+    <section>
       <article class="main-section" id="JavaScript_and_Java">
         <header>
           JavaScript and Java
@@ -59,6 +64,8 @@
         <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
         <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
       </article>
+    </section>
+    <section>
       <article class="main-section" id="Hello_world">
         <header>
           Hello world
@@ -68,6 +75,8 @@
         greetMe("World");</code>
         <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
       </article>
+    </section>
+    <section>
       <article class="main-section" id="variables">
         <header>
           Variables
@@ -76,6 +85,8 @@
         <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
         <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
       </article>
+    </section>
+    <section>
       <article class="main-section" id="Declaring_variables">
         <header>
           Declaring variables
@@ -91,6 +102,7 @@
         <code> let y = 13.</code>
         <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
       </article>
+    </section>
     </main>
   </body>
 </html>
